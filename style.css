@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+}
+.navlinks li a{
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mobile-avatar{
+    display: none;
+}
+.desktop-avatar{
+    height: 500px;
+}
+.login{
+    /* border: 2px solid red; */
+    /* display: flex; */
+   text-align: left;
+}
