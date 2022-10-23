@@ -1,6 +1,8 @@
+
+
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 nav{
@@ -9,28 +11,108 @@ nav{
     display: flex;
     margin-left: 30px;
     margin-top: 40px;
+    font-family: "Epilogue";
 }
 .navlinks{
     display: flex;
     list-style: none;
+    font-family: "Epilogue" specimen;
 }
 .navlinks li a{
     margin-left: 50px;
     text-decoration: none;
+    color: black;
+    font-family: "Epilogue" specimen;
     font-size: 16px;
 }
 .container{
     display: flex;
     flex-direction: row-reverse;
 }
+
+.login{
+    margin-left: auto;
+    margin-right: 100px;
+    display: flex;
+    list-style: none;
+    font-family: "Epilogue" specimen;
+    text-align: left;
+}
+.login li a{
+    color: black;
+    text-decoration: none;
+}
+.register{
+    text-align: center;
+    border: 3px solid black;
+    margin-left: 60px;
+    margin-top: -10px;
+    border-radius: 10px;
+    height: 45px;
+    padding-top: 10px;
+    width: 100px;
+}
+.logo{
+    margin-top: -15px;
+    font-size: 25px;
+}
+.information{
+    width: 35%;
+    margin-top: -90px;
+}
+.information h1{
+    font-size: 80px;
+    margin-right: 40px;
+}
+.information p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.information button{
+    border: none;
+    background-color: black;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.information button a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.sponsors{
+    margin-top: 30px;
+}
+.sponsors img{
+    margin-right: 30px;
+}
+.avatar{
+    width: 50%;
+    margin-top: -70px;
+}
 .mobile-avatar{
     display: none;
 }
 .desktop-avatar{
-    height: 500px;
+    height: 550px;
+    margin-left: 150px;
+    margin-top: -80px;
 }
-.login{
-    /* border: 2px solid red; */
-    /* display: flex; */
-   text-align: left;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
