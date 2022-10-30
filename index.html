@@ -5,52 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=specimen/Epilogue">
-    <title>Document</title>
+    <title>intro section main</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <h2>snap</h2>
-        </div>
-        <ul class="navlinks">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Companies</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-        <div class="login">
-            <li><a href="#">Login</a></li>
-            <li class="register"><a href="#">Register</a></li>
-        </div>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="avatar">
-            <img class="mobile-avatar" src="./intro-section-with-dropdown-navigation-main/images/image-hero-mobile.png" alt="">
-            <img class="desktop-avatar" src="./intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png" alt="">
-        </div>
-        <div class="information">
-            <h1>
-                Make remote work
-            </h1>
-            <p>
-                 Get your team in sync, no matter your location. Streamline processes, 
-                 create team rituals, and watch productivity soar.
-            </p>
-            <button><a href="#">Learn more</a></button>
+   <header class="primary-header">
 
-            <section class="sponsors">
-                <img src="./intro-section-with-dropdown-navigation-main/images/client-databiz.svg" alt="">
-                <img src="./intro-section-with-dropdown-navigation-main/images/client-audiophile.svg" alt="">
-                <img src="./intro-section-with-dropdown-navigation-main/images/client-meet.svg" alt="">
-                <img src="./intro-section-with-dropdown-navigation-main/images/client-maker.svg" alt="">
+        <div class="head">
+            <div class="logo">
+                <img src="./resource/images/logo.svg" alt="">
+            </div>
+            <button class="mobile-nav-toggle"
+                aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+            </button>
+        </div>
+
+        <nav>
+            <ul data-visible="false" id="primary-navigation" class="primary-navigation" flex>
+                <div class="menu">
+                    <li class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()">Features <img src="./resource/images/icon-arrow-down.svg" alt=""></button>
+                        <div id="mydropdown" class="dropdown-content">
+                            <a href="#"> <img src="./resource/images/icon-todo.svg" alt=""> Todo</a>
+                            <a href="#"> <img src="./resource/images/icon-calendar.svg" alt=""> Calender</a>
+                            <a href="#"> <img src="./resource/images/icon-reminders.svg" alt=""> Reminders</a>
+                            <a href="#"> <img src="./resource/images/icon-planning.svg" alt=""> Planning</a>
+                        </div>
+                    </li>
+                    <li>
+                        <button onclick="myFunction2()" class="dropbtn">Company <img src="./resource/images/icon-arrow-down.svg" alt=""></button>
+                        <div id="mydropdown2" class="dropdown-content">
+                            <a href="#">History</a>
+                            <a href="#">Our Team</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </div>
+                <div class="login">
+                    <button>Login</button>
+                    <button>Register</button>
+                </div>
+            </ul>
+        </nav>
+   </header>
+
+
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Make <br> remote work</h1>
+             <p>
+
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+            </p>
+            <button class="learn-more">Learn More</button>
+            <section class="sponsor">
+                <img src="./resource/images/client-databiz.svg" alt="">
+                <img src="./resource/images/client-audiophile.svg" alt="">
+                <img src="./resource/images/client-meet.svg" alt="">
+                <img src="./resource/images/client-maker.svg" alt="">
             </section>
         </div>
+        <div>
+        <img class="mobile-hero" src="./resource/images/image-hero-mobile.png" alt="">
+        <img class="desktop-hero" src="./resource/images/image-hero-desktop.png" alt="">
+        </div>
     </div>
+    <script src="app.js" defer></script>
 </body>
 </html>
