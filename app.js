@@ -53,3 +53,33 @@ navToggle.addEventListener("click" , () => {
         navToggle.setAttribute("aria-expanded" , false)
     }
 });
+
+
+$(document).ready(function(){
+  $("#navi").click(function(){
+    $("#navi .fa-chevron-down").toggleClass("rotate180");
+    $("#mydropdown").stop().slideToggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $("#navi2").click(function(){
+    $("#navi2 .fa-chevron-down").toggleClass("rotate180");
+    $("#mydropdown2").stop().slideToggle(500);
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

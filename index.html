@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
     <title>intro section main</title>
 </head>
@@ -22,7 +24,7 @@
         <nav>
             <ul data-visible="false" id="primary-navigation" class="primary-navigation" flex>
                 <li class="menu-dropdown">
-                    <button class="dropbtn" onclick="myFunction()">Features </button>
+                    <button id="navi" class="dropbtn Features" onclick="myFunction()">Features  <i class="fa fa-chevron-down"></i> </button>
                     <div id="mydropdown" class="dropdown-content">
                         <a href="#"> <img src="./resource/images/icon-todo.svg" alt=""> Todo List</a>
                         <a href="#"> <img src="./resource/images/icon-calendar.svg" alt=""> Calender</a>
@@ -31,7 +33,7 @@
                     </div>
                 </li>
                 <li class="menu-dropdown">
-                    <button onclick="myFunction2()" class="dropbtn">Company </button>
+                    <button id="navi2" onclick="myFunction2()" class="dropbtn Company">Company <i class="fa fa-chevron-down"></i> </button>
                     <div id="mydropdown2" class="dropdown-content">
                         <a href="#">History</a>
                         <a href="#">Our Team</a>

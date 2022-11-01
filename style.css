@@ -27,12 +27,15 @@ nav{
     text-decoration: none;
     color: hsl(0, 0%, 41%);
     display: block;
+    font-size: 15px;
+    font-weight: 300;
 }
 .primary-navigation li{
     margin-right: 2%;
     color: hsl(0, 0%, 41%);
 }
 ul{
+    font-size: 16px;
     /* overflow: hidden; */
     margin: 0;
     padding: 0;
@@ -77,18 +80,13 @@ ul{
     display: flex;
     align-items: baseline;
 }
-.dropbtn:after {
-    content: url(./resource/images/icon-arrow-down.svg);
+.dropbtn i{
     margin-left: 10px;
-     -webkit-transform: rotate(0);
-  transform: rotate(0);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
-.dropbtn.show::after {
-     float: right;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+
+.rotate180 {
+     -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .dropdown-content{
     display: flex;
