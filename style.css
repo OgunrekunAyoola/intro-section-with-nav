@@ -81,7 +81,10 @@ ul{
     align-items: baseline;
 }
 .dropbtn i{
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+    align-items: center;
+    font-size: 10px;
 }
 
 .rotate180 {
@@ -185,7 +188,7 @@ ul{
 }
 
 
-@media (max-width: 35em) {
+@media (max-width: 37em) {
     .primary-navigation{
         --gap: 2em;
         align-items: unset;
