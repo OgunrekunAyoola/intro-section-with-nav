@@ -136,7 +136,8 @@ ul{
     margin-left: 15%;
 }
 .hero-text p{
-    font-size: 2vw;
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
     margin-top: 30px;
     margin-left: 15%;
     margin-right: 60px;
@@ -159,7 +160,7 @@ ul{
 }
 .hero button{
     margin-top: 30px;
-    background-color: black;
+    background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 98%);
     margin-left: 15%;
     padding: 10px 15px;
@@ -170,19 +171,19 @@ ul{
 .learn-more:hover{
     outline: none;
     background-color: hsl(0, 0%, 98%);
-    color: black;
+    color: hsl(0, 0%, 8%);
     transition: all 1s;
 }
 .sponsor{
     margin-top: 60px;
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
     justify-content: space-around;
     align-items: center;
 }
 .sponsor img{
     min-width: 50px;
-    max-width: 100px;
+    max-width: 80px;
 }
 
 
